@@ -1,0 +1,54 @@
+[global_config]
+  tab_position = left
+  scroll_tabbar = True
+  hide_from_taskbar = True
+  sticky = True
+  title_transmit_fg_color = "#bf3f3f"
+  title_transmit_bg_color = "#221929"
+  title_receive_fg_color = "#221929"
+  title_receive_bg_color = "#221929"
+  title_inactive_fg_color = "#221929"
+  title_inactive_bg_color = "#221929"
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#101212"
+    background_darkness = 0.92
+    cursor_color = "#aaaaaa"
+    font = Victor Mono Bold Italic 13
+    foreground_color = "#eeeeec"
+    show_titlebar = False
+    palette = "#3465a4:#ef2929:#8ae234:#e9b96e:#3f9ebf:#b16286:#3fbf58:#a920bf:#3465a4:#ef2929:#8ae234:#e9b96e:#3f9ebf:#8f3f71:#3fbf58:#a920bf"
+    use_system_font = False
+    copy_on_selection = True
+  [[VSCode Terminal]]
+    background_color = "#101212"
+    background_darkness = 0.92
+    cursor_color = "#aaaaaa"
+    font = Victor Mono Bold Italic 13
+    foreground_color = "#eeeeec"
+    show_titlebar = False
+    palette = "#3465a4:#ef2929:#8ae234:#e9b96e:#3f9ebf:#b16286:#3fbf58:#a920bf:#3465a4:#ef2929:#8ae234:#e9b96e:#3f9ebf:#8f3f71:#3fbf58:#a920bf"
+    use_system_font = False
+    copy_on_selection = True
+
+  [[Custom Bright]]
+    background_color = "#181717"
+    cursor_color = "#aaaaaa"
+    font = Victor Mono Bold Italic 13
+    foreground_color = "#eeeeec"
+    show_titlebar = False
+    palette = "#005ed7:#df063f:#62e612:#f1970b:#0dade5:#ac3f71:#08ae28:#d606f8:#105ec1:#ef2b5f:#7dce2d:#dd9e3c:#32c2f4:#c563a1:#32ab4a:#df3afa"
+    use_system_font = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
